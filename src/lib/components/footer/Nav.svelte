@@ -23,6 +23,10 @@
 	h2 {
 		margin-bottom: 0.5em;
 		font-size: 1.5rem;
+
+		@media (max-width: 512px) {
+			display: none;
+		}
 	}
 	ul {
 		display: flex;
@@ -31,6 +35,11 @@
 		padding: 0;
 		margin: 0;
 		justify-content: center;
+
+		@media (max-width: 520px) {
+			flex-direction: column;
+			justify-content: space-between;
+		}
 	}
 
 	li {
