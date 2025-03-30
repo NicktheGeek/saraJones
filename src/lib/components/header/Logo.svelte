@@ -3,7 +3,7 @@
 </script>
 <div class="logo">
     <a href="/" aria-label="Sara Jones for School Board">
-        <span class="logo-name" aria-hidden="true">S<Apple />ra Jones</span>
+        <span class="logo-name" aria-hidden="true">Sara J<Apple />nes</span>
         <span class="logo-subtext" aria-hidden="true">for School Board</span>
     </a>
 </div>
