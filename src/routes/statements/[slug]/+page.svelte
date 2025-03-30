@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Star from '$lib/components/svgs/Star.svelte';
-import { formatDate } from '$lib/utils'
+	import { formatDate } from '$lib/utils'
 
 	let { data } = $props()
 </script>
