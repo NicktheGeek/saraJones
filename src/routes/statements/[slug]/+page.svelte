@@ -22,7 +22,7 @@ import { formatDate } from '$lib/utils'
 				<p>Published on {formatDate(data.meta.date)}</p>
 			</div>
 			<figure class="author-image">
-				<img src="/images/sara-jones-sq.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." />
+				<enhanced:img src="../../../assets/images/sara-jones-sq.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." />
 			</figure>
 		</hgroup>
 

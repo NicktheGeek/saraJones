@@ -8,7 +8,7 @@
 			<Vote />
 		</div>
 		<figure class="hero-image">
-			<img src="/images/sara-jones.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." />
+			<enhanced:img src="../../../assets/images/sara-jones.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." width=504 height=693 />
 		</figure>
 	</div>
 </section>

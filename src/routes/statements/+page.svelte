@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
-	import * as config from '$lib/config'
 	import StrongerSchools from '$lib/components/home/StrongerSchools.svelte';
 
 	let { data } = $props()
