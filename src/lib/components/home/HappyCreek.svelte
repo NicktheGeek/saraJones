@@ -23,7 +23,9 @@
 				</li>
 			</ul>
 		</div>
-		<AppleMedal />
+		<div class="medal-wrapper">
+			<AppleMedal />
+		</div>
 	</div>
 </div>
 
@@ -69,5 +71,19 @@
 		display: inline-block;
 		font-size: 1.75rem;
 		line-height: 1.2;
+	}
+
+	.medal-wrapper {
+		flex: 1 0;
+		width: 400px;
+		max-width: 100%;
+	}
+
+	@media (max-width: 800px) {
+		.wrapper {
+			--inner-flex-direction: column;
+			--inner-flex-align: center;
+			--inner-flex-justify: center;
+		}
 	}
 </style>

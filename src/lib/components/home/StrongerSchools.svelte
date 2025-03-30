@@ -22,15 +22,6 @@
 		--inner-flex-align: stretch;
 	}
 
-	.inner {
-		display: flex;
-		max-width: 100%;
-		width: var(--content-width);
-		justify-content: center;
-		align-items: stretch;
-		gap: 2rem;
-	}
-
 	.title {
 		text-align: center;
 		font-size: 3rem;
@@ -53,5 +44,21 @@
 	.red-rounded-star svg {
 		width: 100%;
 		height: auto;
+	}
+
+	@media (max-width: 768px) {
+		.title {
+			font-size: 2.5rem;
+			text-align: center;
+			margin-bottom: 1rem;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 0.75rem;
+		}
+
+		.red-rounded-star {
+			width: 80px;
+		}
 	}
 </style>
