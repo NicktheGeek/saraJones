@@ -9,6 +9,9 @@ import { formatDate } from '$lib/utils'
 	<title>{data.meta.title} | Sara Jones for Warren County Va School Board</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={`${data.meta.title} | Sara Jones for Warren County Va School Board`} />
+	<meta property="description" content={data.meta.description} />
+	<meta property="og:description" content={data.meta.description} />
+	<meta property="og:image" content={data.meta.image || `/images/sara-jones-og-img.png`} />
 </svelte:head>
 
 <div class="wrapper">
