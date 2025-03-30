@@ -8,7 +8,7 @@
 <svelte:head>
 	<title>Statements from Sara Jones for Warren County Virginia School Board</title>
 	<meta property="og:image" content="/images/sara-jones-og-img.png" />
-	<meta property="description" content="Statements from Sara Jones for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
+	<meta name="description" content="Statements from Sara Jones for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
 	<meta property="og:description" content="Statements from Sara Jones for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
 </svelte:head>
 

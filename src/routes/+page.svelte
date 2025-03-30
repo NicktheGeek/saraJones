@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Sara Jones for Warren County VA School Board | Home</title>
-	<meta property="description" content="Sara Jones is running for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
+	<meta name="description" content="Sara Jones is running for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content={`Sara Jones for Warren County VA School Board | Home`} />
 	<meta property="og:description" content="Sara Jones is running for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
