@@ -8,6 +8,12 @@
 	--font-body: 'Arial, sans-serif';
 	--content-width: 1040px;
 	--content-padding: 1rem;
+	--color-hr: var(--color-primary);
+	--inner-flex-direction: column;
+	--inner-flex-wrap: nowrap;
+	--inner-flex-align: center;
+	--inner-flex-justify: center;
+	--inner-gap: 2rem;
 }
 
 body {
@@ -58,4 +64,22 @@ p {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem var(--content-padding);
+}
+
+.inner {
+	display: flex;
+	max-width: 100%;
+	width: var(--content-width);
+	flex-direction: var(--inner-flex-direction);
+	flex-wrap: var(--inner-flex-wrap);
+	align-items: var(--inner-flex-align);
+	justify-content: var(--inner-flex-justify);
+	gap: var(--inner-gap);
 }
