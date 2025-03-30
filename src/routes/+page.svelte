@@ -2,7 +2,9 @@
     export const prerender = true;
     export const ssr = true;
 
-    import HomeHero from "$lib/components/heros/HomeHero.svelte";
+	import Content from "$lib/components/home/Content.svelte";
+    import Hero from "$lib/components/home/Hero.svelte";
 </script>
 
-<HomeHero />
+<Hero />
+<Content />

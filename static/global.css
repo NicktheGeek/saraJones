@@ -6,6 +6,8 @@
 	--text: var(--color-primary);
 	--font-heading: 'Arial, sans-serif';
 	--font-body: 'Arial, sans-serif';
+	--content-width: 1040px;
+	--content-padding: 1rem;
 }
 
 body {
