@@ -74,7 +74,6 @@
 	}
 
 	.medal-wrapper {
-		flex: 1 0;
 		width: 400px;
 		max-width: 100%;
 	}
@@ -83,7 +82,7 @@
 		.wrapper {
 			--inner-flex-direction: column;
 			--inner-flex-align: center;
-			--inner-flex-justify: center;
+			--inner-flex-justify: space-between;
 		}
 	}
 </style>
