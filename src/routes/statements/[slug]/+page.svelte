@@ -80,6 +80,7 @@ import { formatDate } from '$lib/utils'
 	}
 
 	article {
+		margin-top: 2rem;
 
 		h1 {
 			text-transform: capitalize;
