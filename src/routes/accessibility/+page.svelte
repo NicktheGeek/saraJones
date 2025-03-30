@@ -39,7 +39,7 @@
 			<ul class="technical-information assessment-approaches">
 				<li>Self-evaluation: Developer has WAS from IAAP in good standing.</li>
 			</ul>
-			<hr noshade="noshade">
+			<hr />
 			<h3>Date</h3>
 			<p>
 				This statement was created on
