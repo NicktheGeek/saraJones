@@ -1,8 +1,16 @@
 <script>
 	import Check from "../svgs/Check.svelte";
+	/**
+	 * Reveal the vote banner on load.
+	 * 
+	 * @param {HTMLElement} el The element.
+	 */
+	const revealToVote = (el) => {
+		el.style.setProperty('transform', 'scale(1)');
+	};
 </script>
 
-<div class="vote">
+<div class="vote" id="home-vote" use:revealToVote>
 	<div class="check-wrapper">
 		<Check />
 	</div>
@@ -28,6 +36,15 @@
 		align-items: center;
 		width: 200px;
 		margin-right: 43px;
+		transition: transform 0.3s ease-in-out;
+		transition-delay: 250ms;
+		transform: scaleY(0);
+		transform-origin: top;
+
+		@media (prefers-reduced-motion: reduce) {
+			transition: none;
+			transform: scaleY(1);
+		}
 
 		@media (max-width: 900px) {
 			margin-right: 0;

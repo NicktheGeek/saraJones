@@ -76,6 +76,9 @@
 	.medal-wrapper {
 		width: 400px;
 		max-width: 100%;
+		position: relative;
+
+		--position: sticky;
 	}
 
 	@media (max-width: 800px) {

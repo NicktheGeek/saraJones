@@ -17,4 +17,8 @@
 		background: var(--bg);
 		padding: 1rem var(--content-padding);
 	}
+
+	.inner {
+		row-gap: 1rem;
+	}
 </style>

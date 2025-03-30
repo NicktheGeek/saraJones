@@ -1,7 +1,14 @@
+<script>
+
+	import Home from "../svgs/Home.svelte";
+
+</script>
 <nav aria-label="Main">
     <ul class="nav">
         <li>
-            <a href="/" aria-label="Sara Jones for School Board">Home</a>
+            <a href="/" aria-label="Sara Jones for School Board">
+                <Home />
+            </a>
         </li>
         <li>
             <a href="/statements">Statements</a>
@@ -29,6 +36,7 @@
             &:hover,
             &:focus {
                 text-decoration: underline;
+                --icon-transform: scale(1.2);
             }
         }
     }
