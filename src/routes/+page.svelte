@@ -1,19 +1,29 @@
-<script context="module" lang="ts">
+<script lang="ts">
+	let { data } = $props()
+	let { seoData } = data;
+	
     export const prerender = true;
     export const ssr = true;
 
 	import Content from "$lib/components/home/Content.svelte";
     import Hero from "$lib/components/home/Hero.svelte";
+	import SeoHead from "$lib/components/SeoHead.svelte";
 </script>
 
-<svelte:head>
-	<title>Sara Jones for Warren County VA School Board | Home</title>
-	<meta name="description" content="Sara Jones is running for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content={`Sara Jones for Warren County VA School Board | Home`} />
-	<meta property="og:description" content="Sara Jones is running for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
-	<meta property="og:image" content="/images/sara-jones-og-img.png" />
-</svelte:head>
+<SeoHead
+	title={seoData.title}
+	language={seoData.language}
+	robots={seoData.robots}
+	description={seoData.description}
+	type={seoData.type}
+	thumbnail_url={seoData.thumbnail_url}
+	thumbnail_width={seoData.thumbnail_width}
+	thumbnail_height={seoData.thumbnail_height}
+	provider_name={seoData.provider_name}
+	author_name={seoData.author_name}
+	author_url={seoData.author_url}
+	url={seoData.url}
+/>
 
 <Hero />
 <Content />

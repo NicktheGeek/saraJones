@@ -1,18 +1,26 @@
 <script lang="ts">
+	import SeoHead from '$lib/components/SeoHead.svelte';
 	import Star from '$lib/components/svgs/Star.svelte';
 	import { formatDate } from '$lib/utils'
 
 	let { data } = $props()
+	let { seoData } = data;
 </script>
 
-<svelte:head>
-	<title>{data.meta.title} | Sara Jones for Warren County Va School Board</title>
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content={`${data.meta.title} | Sara Jones for Warren County Va School Board`} />
-	<meta name="description" content={data.meta.description} />
-	<meta property="og:description" content={data.meta.description} />
-	<meta property="og:image" content={data.meta.image || `/images/sara-jones-og-img.png`} />
-</svelte:head>
+<SeoHead
+	title={seoData.title}
+	language={seoData.language}
+	robots={seoData.robots}
+	description={seoData.description}
+	type={seoData.type}
+	thumbnail_url={seoData.thumbnail_url}
+	thumbnail_width={seoData.thumbnail_width}
+	thumbnail_height={seoData.thumbnail_height}
+	provider_name={seoData.provider_name}
+	author_name={seoData.author_name}
+	author_url={seoData.author_url}
+	url={seoData.url}
+/>
 
 <div class="wrapper">
 	<article class="inner">

@@ -1,16 +1,27 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import StrongerSchools from '$lib/components/home/StrongerSchools.svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
 
 	let { data } = $props()
+	let { seoData } = data;
+
 </script>
 
-<svelte:head>
-	<title>Statements from Sara Jones for Warren County Virginia School Board</title>
-	<meta property="og:image" content="/images/sara-jones-og-img.png" />
-	<meta name="description" content="Statements from Sara Jones for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
-	<meta property="og:description" content="Statements from Sara Jones for the Warren County School Board. She is a parent, educator, and advocate for students, teachers, and parents." />
-</svelte:head>
+<SeoHead
+	title={seoData.title}
+	language={seoData.language}
+	robots={seoData.robots}
+	description={seoData.description}
+	type={seoData.type}
+	thumbnail_url={seoData.thumbnail_url}
+	thumbnail_width={seoData.thumbnail_width}
+	thumbnail_height={seoData.thumbnail_height}
+	provider_name={seoData.provider_name}
+	author_name={seoData.author_name}
+	author_url={seoData.author_url}
+	url={seoData.url}
+/>
 
 <section class="wrapper">
 	<div class="inner">
