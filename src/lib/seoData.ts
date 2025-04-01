@@ -21,6 +21,10 @@ const pages = {
 		title: 'Accessibility Statement for Sara Jones for School Board',
 		description: 'Sara Jones for School Board is fully conformant with WCAG 2.2 level AA. Fully conformant means that the content fully conforms to the accessibility standard without any exceptions.',
 	},
+	'/donations': {
+		title: 'Info on how to  for Sara Jones for School Board',
+		description: 'Learn how to make donations to Sara Jones for School Board.',
+	},
 	'/statements': {
 		title: 'Statements',
 		description: 'This is a blog about statements.',

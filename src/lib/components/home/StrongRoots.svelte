@@ -8,24 +8,24 @@
 		<ul class="two-col-list">
 			<li class="item">
 				<Check />
-				<span class="text">Third generation, lifelong resident of Warren County.</span>
+				<span class="text">Third generation, lifelong resident of Warren County</span>
 			</li>
 			<li class="item">
 				<Check />
-				<span class="text">Parent of two Warren County Public Schools students.</span>
+				<span class="text">Parent of two Warren County Public Schools students</span>
 			</li>
 			<li class="item">
 				<Check />
-				<span class="text">Participated in the WCPS 101 program.</span>
+				<span class="text">Participated in the WCPS 101 program</span>
 			</li>
 			<li class="item">
 				<Check />
 				<span class="text">Currently serving on the Modified School Calendar
-					Committee.</span>
+					Committee</span>
 			</li>
 			<li class="item">
 				<Check />
-				<span class="text">Currently support schools through fundraising and volunteering.</span>
+				<span class="text">Currently support schools through fundraising and volunteering</span>
 			</li>
 		</ul>
 	</div>
