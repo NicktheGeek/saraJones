@@ -1,7 +1,7 @@
 ---
 title: Announcement of Candidacy
 description: My name is Sara Jones and I am pleased to announce my candidacy for the Warren County School Board seat in the Happy Creek District.
-date: '2025-4-03'
+date: '2025-3-31'
 categories:
   - announcements
 published: true
