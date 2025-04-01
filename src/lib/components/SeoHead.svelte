@@ -11,9 +11,6 @@
 </script>
 
 <svelte:head>
-    <title>{title}</title>
-    <meta name="description" content={description} />
-    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href={oembedURL}>
     <meta name='language' content={language || 'EN'} />
     <meta name='robots' content={robots || 'index, follow'} />
     <meta property="og:title" content={title} />
@@ -25,4 +22,7 @@
     <meta property="og:site_name" content={provider_name} />
     <meta property="og:author" content={author_name} />
     <meta property="og:author:url" content={author_url} />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href={oembedURL}>
+    <meta name="description" content={description} />
+    <title>{title}</title>
 </svelte:head>
