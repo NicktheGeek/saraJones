@@ -1,5 +1,6 @@
 <script>
 	import { url as siteURL } from "$lib/config";
+    import { MetaTags } from 'svelte-meta-tags';
 
     let { title, language, robots, description, type, thumbnail_url, thumbnail_width, thumbnail_height, provider_name, author_name, author_url, url } = $props();
 
@@ -10,19 +11,36 @@
     let oembedURL = siteURL + '/api/oembed?url=' + encodeURIComponent( url );
 </script>
 
+<MetaTags
+  title={title}
+  description={description}
+  canonical={url}
+  openGraph={{
+    url: url,
+    type: type || 'website',
+    locale: language || 'en_US',
+    title: title,
+    description: description,
+    images: [
+      {
+        url: thumbnail_url,
+        width: thumbnail_width,
+        height: thumbnail_height,
+      },
+    ],
+    siteName: 'Sara Jones for School Board',
+  }}
+  twitter={{
+    cardType: 'summary_large_image',
+    title: title,
+    description: description,
+    image: thumbnail_url,
+    imageAlt: title,
+  }}
+/>
+
 <svelte:head>
     <meta name='language' content={language || 'EN'} />
     <meta name='robots' content={robots || 'index, follow'} />
-    <meta property="og:title" content={title} />
-    <meta property="og:type" content={type || 'website'} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={thumbnail_url} />
-    <meta property="og:image:width" content={thumbnail_width.toString()} />
-    <meta property="og:image:height" content={thumbnail_height.toString()} />
-    <meta property="og:site_name" content={provider_name} />
-    <meta property="og:author" content={author_name} />
-    <meta property="og:author:url" content={author_url} />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href={oembedURL}>
-    <meta name="description" content={description} />
-    <title>{title}</title>
 </svelte:head>
