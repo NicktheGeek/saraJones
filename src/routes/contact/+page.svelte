@@ -43,6 +43,7 @@
 			data-netlify="true" 
 			data-netlify-recaptcha="true"
 		>
+			<input type="hidden" name="form-name" value="contactSaraJones" />
 			<div class="form-row">
 				<div class="form-input-group">
 					<label for="name">Name:</label>
