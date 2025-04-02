@@ -6,8 +6,8 @@
 
 	let { data } = $props()
 	const seoData = getDefaultSEOData();
-	seoData.title = "Contact Sara Jones for School Board";
-	seoData.description = "";
+	seoData.title = "Statements from Sara Jones for Warren County Virginia School Board";
+	seoData.description = "Learn what Sara Jones has to say about running for the Warren County Virginia School Board.";
 </script>
 
 <SeoHead
