@@ -4,8 +4,7 @@
 	import { getDefaultSEOData } from "$lib/seoData";
 	
 	const seoData = getDefaultSEOData();
-	seoData.title = "Donations to Sara Jones for School Board";
-	seoData.description = "Learn how to make donations to Sara Jones for School Board.";
+	seoData.title = "Thank you for reaching out to Sara Jones for School Board";
 </script>
 
 <SeoHead
@@ -19,18 +18,15 @@
 
 <section class="wrapper">
 	<div class="inner">
-		<h1>Donations to <span class="basic-information website-name">Sara Jones for School Board</span></h1>
+		<h1>Thank you for reaching out to <span class="basic-information website-name">Sara Jones for School Board</span></h1>
 		<div class="content">
 			<figure class="author-image">
 				<enhanced:img src="../../assets/images/sara-jones-sq.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." height=300 width=300 />
 			</figure>
 			<div>
-				<p class="no-margin">If you would like to make a donation to the campaign, please make checks payable to <strong>Sara Jones for School Board</strong> and mail to:</p>
-				<address>
-					Sara Jones for School Board<br />
-					962 Stuart Dr.<br />
-					Front Royal, VA 22630
-				</address>
+				<p>I'll be reading your message soon. I’m running for school board to strengthen the education and increase the opportunities for growth for all children of this community. As a member of this community, I value your input.</p>
+				<p>Read more about how we can help ensure <strong>strong schools</strong> and <strong>bright futures</strong> for Warren County students in my <a href="/statements/announcement-of-candidacy">Announcement of Candidacy</a></p>
+				<p>If you would like to help via a donation, you can learn more at <a href="/donations">Donations to Sara Jones for School Board</a></p>
 			</div>
 		</div>
 		<Signature />

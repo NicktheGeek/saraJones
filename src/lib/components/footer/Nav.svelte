@@ -12,7 +12,7 @@
 			</a>
 		</li>
 		<li>
-			<a href='mai&#108;to&#58;S%6&#49;raj&#37;6&#70;nes%34&#115;c&#104;o&#111;%6Cb%6F%61&#114;d&#64;&#103;ma&#37;&#54;9&#37;6C&#46;%63&#111;m' aria-label="Email">
+			<a href='/contact' aria-label="Contact Sara Jones">
 				<Email />
 			</a>
 		</li>

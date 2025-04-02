@@ -2,25 +2,21 @@
 	import { formatDate } from '$lib/utils'
 	import StrongerSchools from '$lib/components/home/StrongerSchools.svelte';
 	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { getDefaultSEOData } from "$lib/seoData";
 
 	let { data } = $props()
-	let { seoData } = data;
-
+	const seoData = getDefaultSEOData();
+	seoData.title = "Statements from Sara Jones for Warren County Virginia School Board";
+	seoData.description = "Learn what Sara Jones has to say about running for the Warren County Virginia School Board.";
 </script>
 
 <SeoHead
 	title={seoData.title}
-	language={seoData.language}
-	robots={seoData.robots}
 	description={seoData.description}
 	type={seoData.type}
 	thumbnail_url={seoData.thumbnail_url}
 	thumbnail_width={seoData.thumbnail_width}
 	thumbnail_height={seoData.thumbnail_height}
-	provider_name={seoData.provider_name}
-	author_name={seoData.author_name}
-	author_url={seoData.author_url}
-	url={seoData.url}
 />
 
 <section class="wrapper">
