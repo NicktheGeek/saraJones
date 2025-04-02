@@ -12,25 +12,37 @@ export async function GET() {
 		>
 			<url>
 				<loc>https://www.sarajonesforschoolboard.com/</loc>
-				<lastmod>2025-03-30</lastmod>
+				<lastmod>2025-04-02</lastmod>
 				<changefreq>daily</changefreq>
 				<priority>1.0</priority>
 			</url>
 			<url>
 				<loc>https://www.sarajonesforschoolboard.com/statements</loc>
-				<lastmod>2025-03-30</lastmod>
+				<lastmod>2025-04-02</lastmod>
+				<changefreq>daily</changefreq>
+				<priority>0.9</priority>
+			</url>
+			<url>
+				<loc>https://www.sarajonesforschoolboard.com/donations</loc>
+				<lastmod>2025-04-02</lastmod>
+				<changefreq>daily</changefreq>
+				<priority>0.9</priority>
+			</url>
+			<url>
+				<loc>https://www.sarajonesforschoolboard.com/contact</loc>
+				<lastmod>2025-04-02</lastmod>
 				<changefreq>daily</changefreq>
 				<priority>0.9</priority>
 			</url>
 			<url>
 				<loc>https://www.sarajonesforschoolboard.com/statements/announcement-of-candidacy</loc>
-				<lastmod>2025-03-30</lastmod>
+				<lastmod>2025-04-01</lastmod>
 				<changefreq>daily</changefreq>
 				<priority>0.8</priority>
 			</url>
 			<url>
 				<loc>https://www.sarajonesforschoolboard.com/accessibility</loc>
-				<lastmod>2025-03-30</lastmod>
+				<lastmod>2025-04-02</lastmod>
 				<changefreq>daily</changefreq>
 				<priority>0.8</priority>
 			</url>
