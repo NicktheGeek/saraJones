@@ -1,5 +1,6 @@
 <script>
 	import SeoHead from "$lib/components/SeoHead.svelte";
+	import Signature from "$lib/components/Signature.svelte";
 	let { data } = $props();
 	let { seoData } = data;
 </script>
@@ -67,6 +68,7 @@
 				using the <a href="https://www.w3.org/WAI/planning/statements/">W3C Accessibility Statement Generator Tool</a>.
 			</p>
 		</div>
+		<Signature />
 	</div>
 </section>
 <style>

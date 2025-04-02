@@ -1,5 +1,6 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/SeoHead.svelte';
+	import Signature from '$lib/components/Signature.svelte';
 	import Star from '$lib/components/svgs/Star.svelte';
 	import { formatDate } from '$lib/utils'
 
@@ -37,18 +38,8 @@
 		<div class="prose">
 			<data.content />
 		</div>
-		<div class="signature">
-			<p>
-				<span class="signature-sign-off">
-					<span class="text">Strong Schools</span>
-					<span class="red-rounded-star">
-						<Star />
-					</span>
-					<span class="text">Bright Futures.</span>
-				</span>
-				<span class="signature-name">Sara Jones</span>
-			</p>
-		</div>
+
+		<Signature />
 	</article>
 </div>
 
@@ -100,32 +91,6 @@
 
 		h1 + p {
 			margin-bottom: 0;
-		}
-
-		.signature {
-			text-align: center;
-			font-size: 1.5rem;
-
-			.signature-sign-off {
-				display: flex;
-				align-items: center;
-				gap: 1rem;
-				font-weight: 600;
-				text-transform: uppercase;
-
-				.red-rounded-star {
-					display: block;
-					width: 25px;
-					transform: translateY(0.1em);
-				}
-			}
-
-			.signature-name {
-				display: block;
-				font-weight: 400;
-				font-size: 2rem;
-				text-transform: capitalize;
-			}
 		}
 	}
 </style>
