@@ -1,24 +1,22 @@
 <script>
 	import SeoHead from "$lib/components/SeoHead.svelte";
 	import Signature from "$lib/components/Signature.svelte";
-	let { data } = $props();
-	let { seoData } = data;
+	import { getDefaultSEOData } from "$lib/seoData";
+	
+	const seoData = getDefaultSEOData();
+	seoData.title = "Accessibility Statement for Sara Jones for School Board";
+	seoData.description = "Sara Jones for School Board is fully conformant with WCAG 2.2 level AA. Fully conformant means that the content fully conforms to the accessibility standard without any exceptions.";
 </script>
 
 <SeoHead
 	title={seoData.title}
-	language={seoData.language}
-	robots={seoData.robots}
 	description={seoData.description}
 	type={seoData.type}
 	thumbnail_url={seoData.thumbnail_url}
 	thumbnail_width={seoData.thumbnail_width}
 	thumbnail_height={seoData.thumbnail_height}
-	provider_name={seoData.provider_name}
-	author_name={seoData.author_name}
-	author_url={seoData.author_url}
-	url={seoData.url}
 />
+
 <section class="wrapper">
 	<div class="inner">
 		<h1>Accessibility Statement for <span class="basic-information website-name">Sara Jones for School Board</span></h1>

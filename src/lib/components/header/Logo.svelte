@@ -21,12 +21,6 @@
 
             --apple-size: 1ch;
 
-            .logo-name {
-                > span {
-                    max-width: var(--apple-size);
-                }
-            }
-
             .logo-subtext {
                 font-size: 0.47em;
                 font-weight: 400;

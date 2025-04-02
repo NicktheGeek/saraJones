@@ -1,7 +1,6 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/SeoHead.svelte';
 	import Signature from '$lib/components/Signature.svelte';
-	import Star from '$lib/components/svgs/Star.svelte';
 	import { formatDate } from '$lib/utils'
 
 	let { data } = $props()
@@ -10,17 +9,11 @@
 
 <SeoHead
 	title={seoData.title}
-	language={seoData.language}
-	robots={seoData.robots}
 	description={seoData.description}
 	type={seoData.type}
 	thumbnail_url={seoData.thumbnail_url}
 	thumbnail_width={seoData.thumbnail_width}
 	thumbnail_height={seoData.thumbnail_height}
-	provider_name={seoData.provider_name}
-	author_name={seoData.author_name}
-	author_url={seoData.author_url}
-	url={seoData.url}
 />
 
 <div class="wrapper">
