@@ -36,6 +36,7 @@
 			</div>
 		</div>
 		<form action="/thank-you" method="POST" class="contact-form" data-netlify="true">
+			<input type="hidden" name="form-name" value="Contact Sara Jones" />
 			<div class="form-row">
 				<div class="form-input-group">
 					<label for="name">Name:</label>
