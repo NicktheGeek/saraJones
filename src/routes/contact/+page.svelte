@@ -35,8 +35,14 @@
 				</address>
 			</div>
 		</div>
-		<form action="/thank-you" method="POST" class="contact-form" data-netlify="true">
-			<input type="hidden" name="form-name" value="contactSaraJones" />
+		<form 
+			action="/thank-you" 
+			method="POST" 
+			class="contact-form"
+			name="contactSaraJones"
+			data-netlify="true" 
+			data-netlify-recaptcha="true"
+		>
 			<div class="form-row">
 				<div class="form-input-group">
 					<label for="name">Name:</label>
@@ -58,6 +64,7 @@
 				<textarea id="message" name="message" rows="8" required></textarea>
 			</div>
 
+			<div data-netlify-recaptcha="true"></div>
 			<button type="submit">Send</button>
 		</form>
 
