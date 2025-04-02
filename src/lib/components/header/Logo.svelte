@@ -3,7 +3,7 @@
 </script>
 <div class="logo">
     <a href="/" aria-label="Sara Jones for School Board">
-        <span class="logo-name" aria-hidden="true">Sara J<Apple />nes</span>
+        <span class="logo-name" aria-hidden="true">Sara J<span><Apple /></span>nes</span>
         <span class="logo-subtext" aria-hidden="true">for School Board</span>
     </a>
 </div>
@@ -20,6 +20,12 @@
             line-height: 1.2;
 
             --apple-size: 1ch;
+
+            .logo-name {
+                > span {
+                    max-width: var(--apple-size);
+                }
+            }
 
             .logo-subtext {
                 font-size: 0.47em;
