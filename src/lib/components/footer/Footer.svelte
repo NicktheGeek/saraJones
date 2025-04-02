@@ -98,13 +98,15 @@
 		}
 	}
 
+	@media (max-width: 820px) {
+		.authorized {
+			order: 4;
+		}
+	}
+
 	@media (max-width: 550px) {
 		.copyright-text {
 			order: 3;
-		}
-
-		.authorized {
-			order: 4;
 		}
 	}
 </style>
