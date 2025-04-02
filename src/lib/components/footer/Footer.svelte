@@ -23,6 +23,7 @@
 	<div class="copyright inner">
 		<p class="copyright-text">©<span id="copyright-year">2025</span> Sara Jones for School Board</p>
 		<p>Website by <a href="https://designsbynickthegeek.com">Nick Croft</a></p>
+		<p class="authorized">Authorized by Sara Jones for School Board</p>
 		<nav aria-label="Additional Information">
 			<ul class="nav">
 				<li>
@@ -100,6 +101,10 @@
 	@media (max-width: 550px) {
 		.copyright-text {
 			order: 3;
+		}
+
+		.authorized {
+			order: 4;
 		}
 	}
 </style>
