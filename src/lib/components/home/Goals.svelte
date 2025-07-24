@@ -4,19 +4,19 @@
 		<div class="content">
 			<ol>
 				<li>
-					<strong>Prioritize Student Achievement</strong>
+					<h3>Prioritize Student Achievement</h3>
 					<span>Implement policies and allocate resources strategically to drive measurable improvements in student outcomes and academic success.</span>
 				</li>
 				<li>
-					<strong>Strengthen Family Engagement</strong>
+					<h3>Strengthen Family Engagement</h3>
 					<span>Promote transparent, consistent communication between schools and families to build trust and support student learning at home and in the classroom.</span>
 				</li>
 				<li>
-					<strong>Ensure Equitable Resource Allocation</strong>
+					<h3>Ensure Equitable Resource Allocation</h3>
 					<span>Advocate for the responsible and equitable use of district funds to maximize support for all students, with a focus on closing achievement gaps and enhancing educational opportunities.</span>
 				</li>
 				<li>
-					<strong>Recruit and Retain High-Quality Educators</strong>
+					<h3>Recruit and Retain High-Quality Educators</h3>
 					<span>Foster a supportive, collaborative work environment that empowers educators to thrive, while advocating for competitive salaries to attract and retain top teaching talent within our schools.</span>
 				</li>
 			</ol>
@@ -85,11 +85,12 @@
 				background-color: var(--text);
 			}
 
-			strong {
+			h3 {
 				font-size: 1.2em;
 				line-height: 1.2;
 				font-weight: 700;
 				display: block;
+				margin-bottom: 0;
 			}
 			span {
 				font-weight: 500;
