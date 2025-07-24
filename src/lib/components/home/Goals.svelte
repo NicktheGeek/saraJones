@@ -49,6 +49,8 @@
 			margin-bottom: 2em;
 			margin-top: 3em;
 			position: relative;
+			text-wrap: balance;
+			text-align: center;
 
 			&:before,
 			&:after {
@@ -88,13 +90,10 @@
 				line-height: 1.2;
 				font-weight: 700;
 				display: block;
-				text-align: center;
 			}
 			span {
 				font-weight: 500;
 				display: block;
-				text-align: center;
-				text-wrap: balance;
 			}
 		}
 	}
