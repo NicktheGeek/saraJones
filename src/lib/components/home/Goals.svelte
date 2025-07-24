@@ -41,17 +41,29 @@
 	ol {
 		list-style: none;
 		counter-reset: item;
+		margin-left: 0;
+		padding-left: 0;
+
 		li {
 			counter-increment: item;
-			margin-bottom: 1em;
+			margin-bottom: 2em;
+			margin-top: 3em;
 			position: relative;
 
-			&:before {
-				content: counter(item);
+			&:before,
+			&:after {
+				font-size: 2rem;
+				content: '';
 				position: absolute;
-				left: -2em;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+			&:after {
+				content: counter(item);
+				top: -1.5em;
 				font-weight: bold;
-				background-color: var(--bg);
+				background-color: white;
 				color: var(--text);
 				padding: 0.5em;
 				aspect-ratio: 1;
@@ -64,15 +76,25 @@
 				align-items: center;
 			}
 
+			&:before {
+				top: -0.75em;
+				height: 1px;
+				width: 20%;
+				background-color: var(--text);
+			}
+
 			strong {
 				font-size: 1.5rem;
 				line-height: 1.2;
 				font-weight: 700;
 				display: block;
+				text-align: center;
 			}
 			span {
 				font-weight: 500;
 				display: block;
+				text-align: center;
+				text-wrap: balance;
 			}
 		}
 	}
