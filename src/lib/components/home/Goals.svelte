@@ -79,12 +79,12 @@
 			&:before {
 				top: -0.75em;
 				height: 1px;
-				width: 20%;
+				width: 10rem;
 				background-color: var(--text);
 			}
 
 			strong {
-				font-size: 1.5rem;
+				font-size: 1.2em;
 				line-height: 1.2;
 				font-weight: 700;
 				display: block;
