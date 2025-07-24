@@ -1,7 +1,7 @@
 <div class="outer">
 	<div class="wrapper">
 		<div class="inner">
-			<h2 class="title">Vision and goals</h2>
+			<h2 class="title">Vision <span class="desktop">and</span><span class="mobile">&</span> goals</h2>
 			<div class="content">
 				<ol>
 					<li>
@@ -48,6 +48,29 @@
 		text-transform: uppercase;
 		margin-bottom: 0;
 		width: 100%;
+		text-wrap: balance;
+		
+		.desktop {
+			display: none;
+		}
+		.mobile {
+			display: block;
+		}
+
+		@media (min-width: 370px) {
+			.mobile {
+				display: inline;
+			}
+		}
+
+		@media (min-width: 500px) {
+			.desktop {
+				display: inline;
+			}
+			.mobile {
+				display: none;
+			}
+		}
 	}
 
 	
