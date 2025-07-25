@@ -1,7 +1,7 @@
 <div class="outer">
 	<div class="wrapper">
 		<div class="inner">
-			<h2 class="title">Vision <span class="desktop">and</span><span class="mobile">&</span> goals</h2>
+			<h2 class="title">Vision <span class="and">and</span><span class="amp">&</span> goals</h2>
 			<div class="content">
 				<ol>
 					<li>
@@ -50,24 +50,28 @@
 		width: 100%;
 		text-wrap: balance;
 		
-		.desktop {
-			display: none;
-		}
-		.mobile {
+		.and {
 			display: block;
+		}
+		.amp {
+			display: none;
 		}
 
 		@media (min-width: 370px) {
-			.mobile {
+			.amp {
 				display: inline;
+			}
+
+			.and {
+				display: none;
 			}
 		}
 
 		@media (min-width: 500px) {
-			.desktop {
+			.and {
 				display: inline;
 			}
-			.mobile {
+			.amp {
 				display: none;
 			}
 		}
