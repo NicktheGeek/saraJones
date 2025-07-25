@@ -124,9 +124,9 @@
 
 			&:before {
 				top: -0.75em;
-				height: 1px;
+				height: 2px;
 				width: 10rem;
-				background-color: var(--text);
+				background-color: var(--color-secondary);
 			}
 
 			h3 {
