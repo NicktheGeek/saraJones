@@ -41,6 +41,30 @@ export async function GET() {
 				<priority>0.8</priority>
 			</url>
 			<url>
+				<loc>https://www.sarajonesforschoolboard.com/statements/statement-on-student-achievement</loc>
+				<lastmod>2025-07-11</lastmod>
+				<changefreq>daily</changefreq>
+				<priority>0.8</priority>
+			</url>
+			<url>
+				<loc>https://www.sarajonesforschoolboard.com/statements/statement-on-family-engagement</loc>
+				<lastmod>2025-07-15</lastmod>
+				<changefreq>daily</changefreq>
+				<priority>0.8</priority>
+			</url>
+			<url>
+				<loc>https://www.sarajonesforschoolboard.com/statements/statement-on-resource-allocation</loc>
+				<lastmod>2025-07-22</lastmod>
+				<changefreq>daily</changefreq>
+				<priority>0.8</priority>
+			</url>
+			<url>
+				<loc>https://www.sarajonesforschoolboard.com/statements/statement-on-recruiting-and-retaining</loc>
+				<lastmod>2025-07-29</lastmod>
+				<changefreq>daily</changefreq>
+				<priority>0.8</priority>
+			</url>
+			<url>
 				<loc>https://www.sarajonesforschoolboard.com/accessibility</loc>
 				<lastmod>2025-04-02</lastmod>
 				<changefreq>daily</changefreq>
