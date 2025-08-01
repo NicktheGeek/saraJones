@@ -22,7 +22,6 @@
     interactiveActions.forEach((action) => {
       document.addEventListener(action, () => {
         if (!firstInteraction) {
-          console.log(`First interaction detected: ${action}`);
           const script = document.createElement('script');
           script.src = `https://www.googletagmanager.com/gtag/js?id=${MEASUREMENT_ID}`;
           document.head.appendChild(script);
