@@ -45,13 +45,14 @@
 	.title {
 		width: 100%;
 		padding: 1.5rem 1rem;
+		margin-bottom: 0;
 		text-align: center;
 		background-color: var(--bg);
 	}
 	.posts {
 		list-style: none;
 		padding: 0;
-		margin: 0;
+		margin: 1rem 0 0;
 		display: flex;
 		flex-wrap: wrap;
 		max-width: 100%;
