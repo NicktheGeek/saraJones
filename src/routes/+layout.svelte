@@ -3,6 +3,7 @@
     import Footer from '$lib/components/footer/Footer.svelte';
     import '../assets/styles/reset.css';
     import '../assets/styles/global.css';
+	import Analytics from '$lib/analytics.svelte';
 </script>
 <style>
     main {
@@ -12,6 +13,8 @@
         align-items: center;
     }
 </style>
+
+<Analytics />
 
 <Header />
 <main>
