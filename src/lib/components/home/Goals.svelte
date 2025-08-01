@@ -5,19 +5,35 @@
 			<div class="content">
 				<ol>
 					<li>
-						<h3>Prioritize Student Achievement</h3>
+						<h3>
+							<a href="/statements/statement-on-student-achievement">
+								Prioritize Student Achievement
+							</a>
+						</h3>
 						<span>Implement policies and allocate resources strategically to drive measurable improvements in student outcomes and academic success.</span>
 					</li>
 					<li>
-						<h3>Strengthen Family Engagement</h3>
+						<h3>
+							<a href="/statements/statement-on-family-engagement">
+								Strengthen Family Engagement
+							</a>
+						</h3>
 						<span>Promote transparent, consistent communication between schools and families to build trust and support student learning at home and in the classroom.</span>
 					</li>
 					<li>
-						<h3>Ensure Equitable Resource Allocation</h3>
+						<h3>
+							<a href="/statements/statement-on-resource-allocation">
+								Ensure Equitable Resource Allocation
+							</a>
+						</h3>
 						<span>Advocate for the responsible and equitable use of district funds to maximize support for all students, with a focus on closing achievement gaps and enhancing educational opportunities.</span>
 					</li>
 					<li>
-						<h3>Recruit and Retain High-Quality Educators</h3>
+						<h3>
+							<a href="/statements/statement-on-recruiting-and-retaining">
+								Recruit and Retain High-Quality Educators
+							</a>
+						</h3>
 						<span>Foster a supportive, collaborative work environment that empowers educators to thrive, while advocating for competitive salaries to attract and retain top teaching talent within our schools.</span>
 					</li>
 				</ol>
@@ -134,7 +150,25 @@
 				line-height: 1.2;
 				font-weight: 700;
 				display: block;
-				margin-bottom: 0;
+				margin-bottom: 0.1em;
+
+				a {
+					--background-height: 20%;
+					color: var(--text);
+					padding-bottom: 0.02em;
+					text-decoration: none;
+					transition: background 0.2s ease-in-out;
+					background-image: linear-gradient(180deg, var(--color-secondary) 0%, var(--color-secondary) 85%, var(--color-primary) 86%, var(--color-primary) 100%);
+					background-repeat: no-repeat;
+					background-size: 100% 1px;
+					background-position: 0 100%;
+
+					&:hover, &:focus {
+						background-image: linear-gradient(180deg, rgb(205,47,35) 0%, rgb(205,47,35) 85%, var(--color-primary) 86%, var(--color-primary) 100%);
+						background-size: 100% var(--background-height);
+						text-decoration: none;
+					}
+				}
 			}
 			span {
 				font-weight: 500;
