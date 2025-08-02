@@ -8,7 +8,14 @@
 			<Vote />
 		</div>
 		<figure class="hero-image">
-			<enhanced:img src="../../../assets/images/sara-jones.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." width=504 height=694 fetchpriority="high" />
+			<enhanced:img 
+				src="../../../assets/images/sara-jones.jpg?w=1008;800;504"
+  				sizes="(min-width:504px) and (min-resolution: 2dppx) 1008px, (min-width:504px) 504px, (max-width:503px) and (min-resolution: 2dppx) 200vw, (max-width:503px) 100vw"
+				alt="Sara Jones in a white blouse in front of the Front Royal gazebo."
+				width=504
+				height=694
+				fetchpriority="high"
+				/>
 		</figure>
 	</div>
 </section>
