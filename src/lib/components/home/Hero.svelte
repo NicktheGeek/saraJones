@@ -10,7 +10,7 @@
 		<figure class="hero-image">
 			<enhanced:img 
 				src="../../../assets/images/sara-jones.jpg?w=1008;800;600;504;400;300"
-  				sizes="(min-width:504px) and (min-resolution: 2dppx) 1008px, (min-width:504px) 504px, (min-width: 401px) and (max-width:503px) and (min-resolution: 2dppx) 1008px, (min-width: 401px) and (max-width:503px) 504px, (min-width: 301px) and (max-width:400px) and (min-resolution: 2dppx) 800px, (min-width: 301px) and (max-width:400px) 400px, (max-width:300px) and (min-resolution: 2dppx) 600px, (max-width:300px) 300px"
+  				sizes="(min-width:504px) and (min-resolution: 2dppx) 1008px, (min-width:504px) 504px, (max-width:503px) and (min-resolution: 2dppx) 200vw, (max-width:503px) 100vw"
 				alt="Sara Jones in a white blouse in front of the Front Royal gazebo."
 				width=504
 				height=694
