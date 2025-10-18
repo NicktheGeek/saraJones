@@ -67,14 +67,4 @@
 			justify-content: center;
 		}
 	}
-
-	.no-margin {
-		margin: 0;
-	}
-
-	address {
-		margin-top: 0.5rem;
-		font-style: normal;
-		line-height: 1.2;
-	}
 </style>
