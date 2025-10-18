@@ -20,7 +20,7 @@
 <section class="wrapper">
 	<div class="inner">
 		<h1>Accessibility Statement for <span class="basic-information website-name">Sara Jones for School Board</span></h1>
-		<div class="content">
+		<div class="content prose">
 			<h3>Conformance status</h3>
 			<p>
 				The <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG)</a> defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.
