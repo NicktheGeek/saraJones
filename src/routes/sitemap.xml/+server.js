@@ -65,6 +65,12 @@ export async function GET() {
 				<priority>0.8</priority>
 			</url>
 			<url>
+				<loc>https://www.sarajonesforschoolboard.com/statements/sara-jones-seeks-to-do-good-for-warren-county-and-happy-creek</loc>
+				<lastmod>2025-10-16</lastmod>
+				<changefreq>daily</changefreq>
+				<priority>0.8</priority>
+			</url>
+			<url>
 				<loc>https://www.sarajonesforschoolboard.com/accessibility</loc>
 				<lastmod>2025-04-02</lastmod>
 				<changefreq>daily</changefreq>
