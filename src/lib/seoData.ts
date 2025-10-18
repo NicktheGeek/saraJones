@@ -22,7 +22,7 @@ export const getSEOData = async (path = '') => {
 	if ( path.match(/statements\.+/) ) {
 		try {
 			const slug = path.split('/').at(-1)?.replace('.md', '')
-			const post = await import(`../../../posts/${slug}.md`)
+			const post = await import(`../../posts/${slug}.md`)
 
 			return { ...respPattern, ...post.metadata }
 		} catch (e) {

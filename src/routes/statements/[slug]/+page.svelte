@@ -21,9 +21,14 @@
 		<hgroup>
 			<div>
 				<h1>{data.meta.title}</h1>
-				<p>Published on {formatDate(data.meta.date)}</p>
+				<div class="flex">
+					<figure class="author-image mobile">
+						<enhanced:img src="../../../assets/images/sara-jones-sq.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." height=80 width=80 />
+					</figure>
+					<p>Published on {formatDate(data.meta.date)}</p>
+				</div>
 			</div>
-			<figure class="author-image">
+			<figure class="author-image desktop">
 				<enhanced:img src="../../../assets/images/sara-jones-sq.jpg" alt="Sara Jones in a white blouse in front of the Front Royal gazebo." height=300 width=300 />
 			</figure>
 		</hgroup>
@@ -63,8 +68,31 @@
 			}
 
 			@media (max-width: 768px) {
-				max-width: 100px;
+				max-width: 40px;
 			}
+		}
+
+		.flex {
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.author-image.desktop {
+		display: none;
+	}
+
+	@media (min-width: 769px) {
+		.author-image.mobile {
+			display: none;
+		}
+		.author-image.desktop {
+			display: block;
 		}
 	}
 	.wrapper {
@@ -80,10 +108,6 @@
 		h1 {
 			text-transform: capitalize;
 			margin-bottom: 0.75rem;
-		}
-
-		h1 + p {
-			margin-bottom: 0;
 		}
 	}
 </style>
