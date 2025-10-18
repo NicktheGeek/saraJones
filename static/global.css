@@ -85,3 +85,9 @@ img {
 	justify-content: var(--inner-flex-justify);
 	gap: var(--inner-gap);
 }
+
+.prose a:hover,
+.prose a:focus {
+	text-decoration-color: var(--color-accent);
+	text-decoration-thickness: 3px;
+}

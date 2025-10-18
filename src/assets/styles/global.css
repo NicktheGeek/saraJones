@@ -85,3 +85,15 @@ img {
 	justify-content: var(--inner-flex-justify);
 	gap: var(--inner-gap);
 }
+
+.prose a {
+	transition: text-decoration-color 0.5s ease-in-out, text-decoration-thickness 0.5s ease-in-out;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 2px;
+}
+
+.prose a:hover,
+.prose a:focus {
+	text-decoration-color: var(--color-tertiary);
+	text-decoration-thickness: 2px;
+}
